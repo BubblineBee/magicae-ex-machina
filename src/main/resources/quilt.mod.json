@@ -16,7 +16,7 @@
 				"sources": "https://github.com/BubblineBee/magicae-ex-machina"
 			},
 			"icon": "assets/magicae_ex_machina/icon.png",
-			"license": "GPL-3.0-or-later"
+			"license": "LGPL-2.1-or-later"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
