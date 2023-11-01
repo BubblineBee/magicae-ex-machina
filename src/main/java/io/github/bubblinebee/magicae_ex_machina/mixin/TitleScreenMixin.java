@@ -1,6 +1,6 @@
-package com.example.example_mod.mixin;
+package io.github.bubblinebee.magicae_ex_machina.mixin;
 
-import com.example.example_mod.ExampleMod;
+import io.github.bubblinebee.magicae_ex_machina.MagicaeExMachina;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
