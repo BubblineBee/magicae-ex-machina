@@ -1,25 +1,25 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "io.github.bubblinebee",
+		"id": "magicae_ex_machina",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Magicae Ex Machina",
+			"description": "Adds .",
 			"contributors": {
-				"Your name here": "Owner"
+				"BubblineBee": "Owner"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://bubblinebee.github.io/",
+				"issues": "https://github.com/BubblineBee/magicae-ex-machina/issues",
+				"sources": "https://github.com/BubblineBee/magicae-ex-machina"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/magicae_ex_machina/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.bubblinebee.magicae_ex_machina.MagicaeExMachina"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "magicae_ex_machina.mixins.json"
 }
